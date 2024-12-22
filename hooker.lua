@@ -1,3 +1,6 @@
+function getexecutorname() return 'Skidware' end
+function getver() return '1.0.0' end
+function identifyexecutor() return getexecutorname(), getver() end
 -- open source because lol 
 getgenv().IS_sigmaAPI_LOADED = false
 local oldr = request 
